@@ -41,38 +41,29 @@
 
 
 ## Markdown tutorial
-Line one
-line 2  
-line 3
 
-### asdasd
 
-###### asd
+| Markdown syntax  | Rendered result |
+| ----------- | ----------- |
+| Simple line | Simple line |
+| Line #1\<br><br>Line #2 | Line #1<br>Line #2 |
+| Line #1(double space)<br>Line #2 | Line #1<br>Line #2 |
+| \# Heading 1 | <h1>Heading 1</h1> |
+| \#\# Heading 2 | <h2>Heading 2</h2> |
+| \#\#\#\#\#\# Heading 6 | <h6>Heading 6</h6> |
+| \*\*bold option #1\*\* | **bold option #1** |
+| \_\_bold option #2\_\_ | __bold option #2__ |
+| \*itallic option #1\* | *italic option #1* |
+| \_italic option #2\_ | _italic option #2_ |
+| \\\*\\\*bold\\\*\\\* | \*\*bold\*\* |
+| Items:<br>- Item #1<br>- Item #2 | Items <ul><li>Item #1</li><li>Item #2</li></ul>|
+| HTML items <br>\<ul><br>\<li>Item #1\</li><br>\<li>Item #2\</li><br>\</ul> | HTML items <ul><li>Item #1</li><li>Item #2</li></ul>|
+| \<hr /> | Page #1 <hr /> Page #2|
+| \[link](legokor.hu) | [link](legokor.hu) |
+| Inline \`code\` sample | Inline `code` sample |
+| \`\`\`python <br>print()<br>\`\`\` | ```print() ``` |
+| \`\`\`sh <br>ls<br>\`\`\` | `ls` |
 
-- asd
-- asd
-- qwe
-
-1. asd
-2. qwe
-
-*italic* 
-
-**bold**
-
-__bold__
-
-[link](legokor.hu)
-
-Ez egy kod `asd` asd.
-
-```python
-print()
-```
-
-```bash
-ls
-```
 
 ## Setup a Python project
 
