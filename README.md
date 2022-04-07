@@ -27,7 +27,7 @@ We have collected the most common basic elements of this language.
 | Items:<br>- Item #1<br>- Item #2 | Items <ul><li>Item #1</li><li>Item #2</li></ul>|
 | HTML items <br>\<ul><br>\<li>Item #1\</li><br>\<li>Item #2\</li><br>\</ul> | HTML items <ul><li>Item #1</li><li>Item #2</li></ul>|
 | \<hr /> | Page #1 <hr /> Page #2|
-| \[link](legokor.hu) | [link](legokor.hu) |
+| \[link](https://legokor.hu/) | [link](https://legokor.hu/) |
 | \!\[image_name](images/logo-small.jpg) | ![image_name](images/logo-small.jpg) |
 | \<img src="images/logo.jpg" width="100"> | <img src="images/logo.jpg" width="100"> |
 | Inline \`code\` sample | Inline `code` sample |
@@ -41,7 +41,8 @@ Others which were hard to show in a table:
     `Result`
     > Block quote
 
--   `Source`: Code blocks    
+-   Code blocks  
+    `Source`     
     \`\`\`python  
     print()  
     \`\`\`  
@@ -50,7 +51,8 @@ Others which were hard to show in a table:
     print()
     ```
 
--   `Source`: Code blocks  
+-   Code blocks in another language  
+    `Source`    
     \`\`\`sh  
     ls  
     \`\`\`  
@@ -58,9 +60,10 @@ Others which were hard to show in a table:
     ```sh
     ls
     ```
--   `Source`: Horizontal rules  
+-   Horizontal rules  
+    `Source`  
     \-\-\-  
     `Result`  
 --- 
 
-Check out a more extensive [Syntax guide](https://www.markdownguide.org/basic-syntax/)!
+Check out this more extensive [Syntax guide](https://www.markdownguide.org/basic-syntax/)!
