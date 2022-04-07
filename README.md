@@ -31,9 +31,6 @@ We have collected the most common basic elements of this language.
 | \!\[image_name](images/logo-small.jpg) | ![image_name](images/logo-small.jpg) |
 | \<img src="images/logo.jpg" width="100"> | <img src="images/logo.jpg" width="100"> |
 | Inline \`code\` sample | Inline `code` sample |
-| \`\`\`python <br>print()<br>\`\`\` | ```print() ``` |
-| \`\`\`sh <br>ls<br>\`\`\` | `ls` |
-| \> Block quote | > Block quote |
 
 
 ### Others
@@ -44,7 +41,7 @@ Others which were hard to show in a table:
     `Result`
     > Block quote
 
--   `Source`  
+-   `Source`: Code blocks    
     \`\`\`python  
     print()  
     \`\`\`  
@@ -53,7 +50,7 @@ Others which were hard to show in a table:
     print()
     ```
 
--   `Source`  
+-   `Source`: Code blocks  
     \`\`\`sh  
     ls  
     \`\`\`  
@@ -61,5 +58,9 @@ Others which were hard to show in a table:
     ```sh
     ls
     ```
+-   `Source`: Horizontal rules  
+    \-\-\-  
+    `Result`  
+--- 
 
 Check out a more extensive [Syntax guide](https://www.markdownguide.org/basic-syntax/)!
