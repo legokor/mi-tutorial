@@ -9,6 +9,8 @@ Markdown is the most commonly used language for documenting repositories. This r
 
 We have collected the most common basic elements of this language.
 
+### Common elements
+
 | Markdown syntax  | Rendered result |
 | ----------- | ----------- |
 | Simple line | Simple line |
@@ -26,6 +28,38 @@ We have collected the most common basic elements of this language.
 | HTML items <br>\<ul><br>\<li>Item #1\</li><br>\<li>Item #2\</li><br>\</ul> | HTML items <ul><li>Item #1</li><li>Item #2</li></ul>|
 | \<hr /> | Page #1 <hr /> Page #2|
 | \[link](legokor.hu) | [link](legokor.hu) |
+| \!\[image_name](images/logo-small.jpg) | ![image_name](images/logo-small.jpg) |
+| \<img src="images/logo.jpg" width="100"> | <img src="images/logo.jpg" width="100"> |
 | Inline \`code\` sample | Inline `code` sample |
 | \`\`\`python <br>print()<br>\`\`\` | ```print() ``` |
 | \`\`\`sh <br>ls<br>\`\`\` | `ls` |
+| \> Block quote | > Block quote |
+
+
+### Others
+Others which were hard to show in a table:
+
+-   `Source`  
+    \> Block quote  
+    `Result`
+    > Block quote
+
+-   `Source`  
+    \`\`\`python  
+    print()  
+    \`\`\`  
+    `Result`
+    ```python
+    print()
+    ```
+
+-   `Source`  
+    \`\`\`sh  
+    ls  
+    \`\`\`  
+    `Result`
+    ```sh
+    ls
+    ```
+
+Check out a more extensive [Syntax guide](https://www.markdownguide.org/basic-syntax/)!
