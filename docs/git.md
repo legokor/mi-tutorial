@@ -42,8 +42,6 @@ Local branches and commits are useful to contain changes which achieved somethin
 
 We can create local branches and commits with `git checkout -b <branch-name>`and git commit.
 
-TODO: read from here
-
 ### Remote
 
 Git would still be useful if it could only be managed locally, but its real power comes when it has its remote.
