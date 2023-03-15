@@ -9,6 +9,7 @@ Checkout out our documentation on the following topics:
 - [SSH key for Git](/docs/git.md) by [@maya2d26](https://github.com/maya2d26)
 - [Markdown language](/docs/markdown.md) by [@bana513](https://github.com/bana513)
 - [Configuration with Hydra](/docs/hydra.md) by [@bana513](https://github.com/bana513)
+- [Testing with Pytest](/docs/pytest.md) by [@bana513](https://github.com/bana513)
 
 
 Additions and suggestions are welcome in the form of Pull Requests.
