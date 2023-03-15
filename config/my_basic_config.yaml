@@ -1,0 +1,13 @@
+variable_a: 5
+variable_b: asd
+variable_c: false
+variable_d: null
+variable_e:
+- xxx
+- yyy
+- zzz
+
+defaults:
+  - sub_config: my_subconfig_x
+  - _self_
+  
