@@ -1,1 +1,3 @@
-hydra-core==1.3.1
+hydra-core
+pytest
+requests
